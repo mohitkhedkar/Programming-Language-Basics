@@ -1,0 +1,7 @@
+print(21+4)
+print(21-3)
+print(32*4)
+print(25/5)
+print(25//5)
+print(23%4)
+print(23 ** 4)
