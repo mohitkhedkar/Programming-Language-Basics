@@ -46,7 +46,11 @@
 - [x] Pointers
     - [x] Pointers
 
-- [ ] [Object oriented Programming]()
+- [x] Strings
+    - [x] Strings
+    - [x] Types of functions in strings
+
+- [x] [Object oriented Programming]()
     - [x] OOP concept
     - [x] objects and classes
     - [x] constructor
@@ -60,9 +64,50 @@
         - [x] hierarchical inheritance
         - [x] multilevel inheritance
         - [x] hybrid inheritance
-    - [ ] Polymorphism
-    - [ ] Encapsulation
-    - [ ] Abstraction
-    - [ ] Interfaces – Abstract class
-    - [ ] Pass and return object from function
+    - [x] Polymorphism
+        - [x] Compile time 
+            - [x] function overloading
+            - [x] operator overloading
+        - [x] Run time
+            - [x] function overriding
+            - [x] virtual function
+    - [x] Encapsulation
+    - [x] Abstraction
 
+- [x] Exception Handling
+
+- [x] Templates
+    - [x] function templates
+    - [x] class templates
+
+- [x] File & Stream
+    - [x] read
+    - [x] write
+
+- [ ] STL
+    - [x] STL Components
+    - [x] Vector
+    - [x] Deque
+    - [ ] List
+    - [ ] Set
+    - [ ] Stack
+    - [ ] Queue
+    - [ ] Priority Queue
+    - [ ] Map
+    - [ ] Multimap
+    - [ ] Map
+    - [ ] Bitset
+    - [ ] Algorithm
+
+- [ ] Iterators
+    - [ ] Iterators
+    - [ ] Bidirectional Iterator
+    - [ ] Forward Iterator
+    - [ ] Input Iterator
+    - [ ] Output Iterator
+
+
+## [Data Structures and Algorithms](https://github.com/mohitkhedkar/Data-Structures-and-Algorithms)
+
+## [Competitive Programming](https://github.com/mohitkhedkar/Competitive-programming)
+---
