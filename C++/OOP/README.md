@@ -156,7 +156,7 @@ int main(){
 ```
 ---
 
-##### This Pointer
+## This Pointer
 - referes to the current instance of the class.
 - 3 main usage
     - used to pass current object as a parameter to another method
@@ -193,7 +193,7 @@ int main(){
 ```
 
 ---
-##### Structure
+## Structure
 
 - Collection of dissimilar elements
 - use to design the custom datatype
@@ -230,7 +230,7 @@ struct book{
 
 ---
 
-##### Enumeration
+## Enumeration
 - Enum is the datatype that contains fixed set of contains
 - imp points
     - enum improves type safety
@@ -251,3 +251,53 @@ int main(){
 }
 
 ```
+---
+## Encapsulation
+- Encapsulation is defined as binding together the data and the functions that manipulates them.
+- Encapsulation is defined as binding together the data and the functions that manipulates them.
+
+    #### Role of access specifiers in encapsulation
+    - The data members should be labeled as private using the private access specifiers
+    - The member function which manipulates the data members should be labeled as public using the public access specifier
+
+```cpp
+#include<iostream>
+using namespace std;
+  
+class Encapsulation
+{
+    private:
+        // data hidden from outside world
+        int x;
+          
+    public:
+        // function to set value of 
+        // variable x
+        void set(int a)
+        {
+            x =a;
+        }
+          
+        // function to return value of
+        // variable x
+        int get()
+        {
+            return x;
+        }
+};
+  
+// main function
+int main()
+{
+    Encapsulation obj;
+      
+    obj.set(5);
+      
+    cout<<obj.get();
+    return 0;
+}
+```
+
+
+---
+##

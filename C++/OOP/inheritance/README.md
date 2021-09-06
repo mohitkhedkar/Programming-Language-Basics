@@ -46,4 +46,4 @@ class dog :: public animal{
 - Multilevel inheritance is a process of deriving a class from another derived class.
 ---
 ### Hybrid Inheritance
---- Hybrid inheritance is a combination of more than one type of inheritance.
+- Hybrid inheritance is a combination of more than one type of inheritance.
