@@ -100,4 +100,96 @@ deque<object_type> deque_name;
 
 --- 
 
-### 
+### List
+- List is a contiguous container while vector is a non-contiguous container i.e list stores the elements on a contiguous memory and vector stores on a non-contiguous memory.
+- Insertion and deletion in the middle of the vector is very costly as it takes lot of time in shifting all the elements. Linklist overcome this problem and it is implemented using list container.
+- List supports a bidirectional and provides an efficient way for insertion and deletion operations.
+- Traversal is slow in list as list elements are accessed sequentially while vector supports a random access.
+
+```cpp
+// empty list
+#include<iostream>
+#include<list>
+using namespace std;
+int main(){
+    list<int> l;
+}
+```
+
+|Method |	Description |
+| ----- | ----- |
+|insert() |	It inserts the new element before the position pointed by the iterator.|
+|push_back() |	It adds a new element at the end of the vector.|
+|push_front() |	It adds a new element to the front.|
+|pop_back() |	It deletes the last element.|
+|pop_front() |	It deletes the first element.|
+|empty() |	It checks whether the list is empty or not.|
+|size() |	It finds the number of elements present in the list.|
+|max_size() |	It finds the maximum size of the list.|
+|front() |	It returns the first element of the list.|
+|back() |	It returns the last element of the list.|
+|swap() |	It swaps two list when the type of both the list are same.|
+|reverse() |	It reverses the elements of the list.|
+|sort() |	It sorts the elements of the list in an increasing order. | 
+|merge() |	It merges the two sorted list. |
+|splice() |	It inserts a new list into the invoking list. |
+|unique() |	It removes all the duplicate elements from the list. |
+|resize() |	It changes the size of the list container. |
+|assign() |	It assigns a new element to the list container. |
+|emplace() |	It inserts a new element at a specified position. |
+|emplace_back() |	It inserts a new element at the end of the vector. |
+|emplace_front() |	It inserts a new element at the beginning of the list. |
+
+--- 
+
+### Set
+- Set are a type of associative containers in which each element has to be unique, because the value of the element identifies it.
+- The value of the element cannot be modified once it is added to the set, though it is possible to remove and add the modified value of that element. 
+```cpp
+#include<iostream>
+#include<set>
+using namespace std;
+int main(){
+    set<int> s{123,45,97,456};
+
+}
+```
+
+|Functions | Description |
+|----      |-----        |
+| Begin |	Returns an iterator pointing to the first element in the set.|
+| cbegin | 	Returns a const iterator pointing to the first element in the set.|
+| End |	Returns an iterator pointing to the past-end.|
+| Cend |	Returns a constant iterator pointing to the past-end.|
+| rbegin |	Returns a reverse iterator pointing to the end.|
+| Rend |	Returns a reverse iterator pointing to the beginning.|
+| crbegin |	Returns a constant reverse iterator pointing to the end.|
+| Crend |	Returns a constant reverse iterator pointing to the beginning.|
+| empty |	Returns true if set is empty.|
+| Size |	Returns the number of elements in the set.|
+| max_size |	Returns the maximum size of the set.|
+| insert | 	Insert element in the set.|
+| Erase | 	Erase elements from the set.|
+| Swap |	Exchange the content of the set.|
+| Clear |	Delete all the elements of the set.|
+| emplace |	Construct and insert the new elements into the set.|
+| emplace_hint | 	Construct and insert new elements into the set by hint.|
+| key_comp  |	Return a copy of key comparison object.|
+| value_comp |	Return a copy of value comparison object.|
+| Find |	Search for an element with given key.|
+| count |	Gets the number of elements matching with given key.|
+| lower_bound |	Returns an iterator to lower bound.|
+| upper_bound |	Returns an iterator to upper bound.|
+| equal_range |	Returns the range of elements matches with given key.|
+| get_allocator |	Returns an allocator object that is used to construct the set.|
+| operator== |	Checks whether the two sets are equal or not.|
+| operator!= |	Checks whether the two sets are equal or not.|
+| operator< |	Checks whether the first set is less than other or not.|
+| operator<= |	Checks whether the first set is less than or equal to other or not.|
+| operator> |	Checks whether the first set is greater than other or not.|
+| operator>= |	Checks whether the first set is greater than equal to other or not.|
+| swap() | 	Exchanges the element of two sets.|
+
+---
+
+###

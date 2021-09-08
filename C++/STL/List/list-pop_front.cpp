@@ -1,0 +1,16 @@
+#include<iostream>
+#include<list>
+using namespace std;
+int main() {
+
+    list<int> l{1,2,3,4};
+
+    l.pop_front();
+    for(auto i=l.begin();i!=l.end();i++){
+        cout<<*i<<" ";
+    }
+
+    return 0;
+
+
+}
